@@ -8,10 +8,13 @@ class MyExtraController extends Controller
 {
     public function doSomething()
     {
+        echo "Even numbers";
         for($i = 10; $i<=20; $i++)
         {
-            echo "$i";
-            echo "<br/>";
+            if($i%2 == 0)
+            {
+                echo "Number $i is even";
+            }
         }
     }
 }
