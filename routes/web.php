@@ -15,3 +15,5 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('send/message','TestController@sendMessage');
+
+Route::get('get/extra','MyExtraController@doSomething');
