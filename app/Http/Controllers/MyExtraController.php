@@ -12,7 +12,7 @@ class MyExtraController extends Controller
         {
 
             echo "$i is the $i";
-
+            echo "New changes";
             echo "<br/>";
         }
     }
