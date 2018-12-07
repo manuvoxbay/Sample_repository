@@ -10,7 +10,7 @@ class MyExtraController extends Controller
     {
         for($i = 10; $i<=20; $i++)
         {
-            echo "$i = $i";
+            echo "$i";
             echo "<br/>";
         }
     }
